@@ -147,62 +147,46 @@ body{
     padding-bottom: 13px;
 }
 .box7{
-    position: relative;
-    margin-top: 12px;
-    /* background: cornflowerblue; */
+ margin-top:20px ;
     width: 100%;
     height: 160px;
-
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 3fr 3fr 1fr);
 }
 
 .box7-card1 {
     
-    position: absolute;
     background: green;
-    width: 390px;
     text-align: center;
     font-size: 28px;
-    height: 70px;
 }
 .box7-card2{
     font-size:28px;
-    position: absolute;
     background: green;
-    width: 350px;
-    left: 404px;
-    height: 70px;
 }
 .box7-card3 {
     font-size: 24px;
-    position: absolute;
     background: green;
-    width: 350px;
-    right: 104px;
-    height: 70px;
 }
 .box7-card4{
-    position: absolute;
     background: black;
     color: white;
-    width: 89px;
     text-align: center;
-    right: 0px;
-    font-size: 9px;
-    /* height: 70px; */
-
+    font-size: 10px;
+    grid-row: 1/3;
+    grid-column: 4/5;
 }
 .box7-card5 {
-    position: absolute;
     background: red;
-    bottom: 0px;
-    width: 1121px;
-    height: 77px;
+    height: 77px; 
     font-size: 17px;
+    grid-column: 1/4;
 }
 
 
 .box8 {
     background: aqua;
     text-align-last: center;
-    margin-top: 12px;
+    margin-top: 20px;
 }
